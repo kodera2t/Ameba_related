@@ -32,8 +32,8 @@ ESP_SSD1306 oled(OLED_RESET); // FOR I2C
 
 
 int status = WL_IDLE_STATUS;
-char ssid[] = "microwave-mont";  //  your network SSID (name)
-char pass[] = "1em0np1e1eburbur";       // your network password
+char ssid[] = "";  //  your network SSID (name)
+char pass[] = "";       // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 2390;      // local port to listen for UDP packets
